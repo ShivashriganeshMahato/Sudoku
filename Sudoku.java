@@ -78,7 +78,7 @@ public class Sudoku {
     }
 
     public static void main(String[] args) throws Exception {
-        Scanner s = new Scanner(new File("/Users/shivashriganeshmahato/Documents/Projects/tests/src/sudoku.dat"));
+        Scanner s = new Scanner(new File("sudoku.dat"));
 
         int n = s.nextInt();
         s.nextLine();
