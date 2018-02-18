@@ -95,8 +95,10 @@ public class Sudoku {
             printBoard(board);
             System.out.println("\n");
 
-            solve(board);
-            printBoard(board);
+            if (solve(board))
+                printBoard(board);
+            else
+                System.out.println("Unsolvable");
         }
     }
 }
